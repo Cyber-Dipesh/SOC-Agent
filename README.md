@@ -54,8 +54,8 @@ aria-ai/
 ### 2. Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/aria-ai.git
-cd aria-ai
+git clone https://github.com/Cyber-Dipesh/SOC-Agent.git
+cd SOC-Agent.git
 python3 -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -107,12 +107,6 @@ streamlit run app.py
    to Tier 2 if repeated attempts are observed.
 ```
 
-## Roadmap
-
-- [ ] Add Shodan enrichment for open-port context
-- [ ] Persist triage history to a local SQLite log
-- [ ] Add MITRE ATT&CK technique tagging to each verdict
-- [ ] Dockerize for one-command setup
 
 ## Disclaimer
 
