@@ -1,0 +1,16 @@
+# Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Generated reports
+report_*.txt
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
