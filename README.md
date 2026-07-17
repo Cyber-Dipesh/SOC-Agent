@@ -1,3 +1,7 @@
+DEMO:
+<img width="1918" height="938" alt="Debian 12 x 64-bit-2026-07-17-13-39-56" src="https://github.com/user-attachments/assets/31490183-5bac-4c9c-b434-5b9d594d5c3a" />
+<img width="1918" height="938" alt="Debian 12 x 64-bit-2026-07-17-13-40-05" src="https://github.com/user-attachments/assets/e6a6d682-3c76-4e5a-8fe5-6a9e8e3e6a7a" />
+
 # ARIA AI — AI-Assisted SOC Triage Agent
 
 ARIA AI is a lightweight junior SOC analyst agent that takes a suspicious IP address, enriches it against multiple threat-intel sources, and uses a **local, offline LLM (via Ollama)** to generate a structured triage report — verdict, confidence, evidence, and recommended playbook actions.
