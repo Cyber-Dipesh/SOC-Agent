@@ -11,26 +11,8 @@ L1 SOC analysts spend a large share of their day manually pivoting between Abuse
 Because it runs on a local Ollama model instead of a paid API, the whole pipeline is free to run and doesn't send data to a third-party LLM provider.
 
 ## Architecture
+<img width="1440" height="1280" alt="image" src="https://github.com/user-attachments/assets/04f40f18-358e-4f2e-ac6f-a06c61abead3" />
 
-```
-Analyst input (IP)
-        │
-        ▼
-   app.py (Streamlit UI)
-        │
-        ▼
-   enrich.py ── fans out to ──┬── AbuseIPDB (reputation score)
-        │                     ├── VirusTotal (malicious verdicts)
-        │                     └── WHOIS (org, country)
-        ▼
-   triage.py ── local Ollama LLM (llama3.1 / qwen2.5-coder)
-        │
-        ▼
-   Triage report ── verdict, confidence, evidence, next steps
-        │
-        ▼
-   Analyst views in-browser + downloads .txt report
-```
 
 ## Features
 
